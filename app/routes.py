@@ -10,6 +10,10 @@ def say_hello():
 def say_hello():
     return {"message": "User Name: John Doe"}
 
+@router.get("/father")
+def say_hello():
+    return {"message": "User father: John Arthur Doe"}
+
 @router.get("/user/address")
 def say_hello():
     return {"message": "User address: Dhaka, Bangladesh"}
