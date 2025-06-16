@@ -5,3 +5,7 @@ router = APIRouter()
 @router.get("/hello")
 def say_hello():
     return {"message": "Hello from /hello endpoint!"} 
+
+@router.get("/user")
+def say_hello():
+    return {"message": "User Name: John Doe"}
