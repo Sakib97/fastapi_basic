@@ -9,3 +9,7 @@ def say_hello():
 @router.get("/user")
 def say_hello():
     return {"message": "User Name: John Doe"}
+
+@router.get("/father")
+def say_hello():
+    return {"message": "User father: John Arthur Doe"}
